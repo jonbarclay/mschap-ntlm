@@ -4,20 +4,22 @@ run chapchrack with the mschap challenge and response https://github.com/moxie0/
 
 
 results look like this
-```Cracking K3........
+``` Cracking K3........
                      C1 = c4efda98b2c14ac2
                      C2 = f710c94d151e9fdf
                      C3 = b031f42762ec31ad
                       P = 44805811a0e2094f
                      K3 = 5f910000000000
-CloudCracker Submission = $99$RIBYEaDiCU/E79qYssFKwvcQyU0VHp/fX5E=```
+CloudCracker Submission = $99$RIBYEaDiCU/E79qYssFKwvcQyU0VHp/fX5E=
+``` 
 
 copy the cloudcracker submission without the $99$
 https://hashcat.net/forum/thread-5912.html
 
 run chapcrack-des.sh
-chapcrack-des.sh RIBYEaDiCU/E79qYssFKwvcQyU0VHp/fX5E=
+``` chapcrack-des.sh RIBYEaDiCU/E79qYssFKwvcQyU0VHp/fX5E=```
 
-DES-ntlm.sh
-
-des-to-ntlm.sh
+run
+```DES-ntlm.sh```
+run
+```des-to-ntlm.sh```

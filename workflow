@@ -1,4 +1,4 @@
-#run chapchrack with the mschap challenge and response
+#run chapchrack with the mschap challenge and response https://github.com/moxie0/chapcrack
 #python2 chapcrack.py radius -C 44:80:58:11:a0:e2:09:4f -R c4:ef:da:98:b2:c1:4a:c2:f7:10:c9:4d:15:1e:9f:df:b0:31:f4:27:62:ec:31:ad
 #
 #results look like this
@@ -11,6 +11,7 @@
 #CloudCracker Submission = $99$RIBYEaDiCU/E79qYssFKwvcQyU0VHp/fX5E=
 #
 #copy the cloudcracker submission without the $99$
+#https://hashcat.net/forum/thread-5912.html
 #
 #run chapcrack-des.sh
 #chapcrack-des.sh RIBYEaDiCU/E79qYssFKwvcQyU0VHp/fX5E=

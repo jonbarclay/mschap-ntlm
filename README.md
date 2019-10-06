@@ -24,3 +24,5 @@ run
 
 run
 ```des-to-ntlm.sh```
+
+Important verify that the order in the DES-ntlm-cracked.txt file is the same as DES-ntlm.hash. If not change the order to match.
